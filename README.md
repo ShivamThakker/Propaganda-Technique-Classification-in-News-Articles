@@ -2,9 +2,7 @@
 This repository contains the code and resources for a propaganda technique classification project aimed at identifying and categorizing propaganda techniques in news articles. The project leverages machine learning techniques and natural language processing (NLP) models to analyze and classify text data.
 
 ## Project Structure
-### datasets/: Contains the dataset used for training and evaluation, along with any preprocessed or augmented data.
-
-### models/: Includes our custom trained hugging face models for classification.
+### dataset/: Contains the dataset used for training and evaluation, along with any preprocessed or augmented data.
 
 ### notebooks/: Jupyter notebooks providing step-by-step walkthroughs of data preprocessing, model training, evaluation, and analysis.
 
@@ -13,8 +11,8 @@ This repository contains the code and resources for a propaganda technique class
 - We have used the SemEval2020 dataset for this project.
 - Firstly Preprocessed and extracted data from text files.
 - Four categories are selected: Loaded_Language, Exaggeration & Minimization (converted to Hyperbole), Flag-Waving (converted to Jingoism), and Doubt, while removing other categories from the original dataset.
-- The resulting dataset, named final.csv which have roughly 3300 rows, is available in the Datasets folder and is utilized for training the distilbert text-classification model.
-- The Project Dataset.csv which have roughly 500 rows, also uploaded in the Datasets folder, is utilized for training the zero-shot model. This dataset consists of 500 rows specifically curated for zero-shot model training, with approximately 100 rows manually selected for each label based on accurate labeling of the sentences.
+- The resulting dataset, named final.csv which have roughly 3300 rows, is available in the Dataset folder and is utilized for training the distilbert text-classification model.
+- The Project Dataset.csv which have roughly 500 rows, also uploaded in the Dataset folder, is utilized for training the zero-shot model. This dataset consists of 500 rows specifically curated for zero-shot model training, with approximately 100 rows manually selected for each label based on accurate labeling of the sentences.
 
 ## Model Results 
 
