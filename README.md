@@ -2,9 +2,9 @@
 This repository contains the code and resources for a propaganda technique classification project aimed at identifying and categorizing propaganda techniques in news articles. The project leverages machine learning techniques and natural language processing (NLP) models to analyze and classify text data.
 
 ## Project Structure
-### dataset/: Contains the dataset used for training and evaluation, along with any preprocessed or augmented data.
+### dataset -  Contains the dataset used for training and evaluation, along with any preprocessed or augmented data.
 
-### notebooks/: Jupyter notebooks providing step-by-step walkthroughs of data preprocessing, model training, evaluation, and analysis.
+### notebooks - Jupyter notebooks providing step-by-step walkthroughs of data preprocessing, model training, evaluation, and analysis.
 
 ## Detailed Steps
 
